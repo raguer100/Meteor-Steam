@@ -1,0 +1,79 @@
+<head>
+  <title>Meteor - twitter public timeline demo</title>
+</head>
+
+<body>
+  {{> index}}
+</body>
+
+<template name="index">
+  <div class="card card-block card-custom-bg" style="margin-top: 20px;float: left;max-width: 50%">
+    <div class="card-title">
+    </div>
+    <p class="card-text">
+
+        <div class="topSellers">
+          <h1 align="center">Top Sellers</h1>
+          <table id="tableLoop">
+            <tr>
+              <th align="center">Image</th>
+              <th align="center">Name</th>
+              <th align="center">Price</th>
+            </tr>
+          </table>
+        </div>
+    </p>
+  </div>
+
+  <div class="card card-block card-custom-bg" style="margin-top: 20px;float: right;max-width: 50%">
+    <div class="card-title">
+    </div>
+    <p class="card-text">
+
+        <div class="topSellers">
+          <h1 align="center">Special Offers</h1>
+          <table id="tableLoopp">
+            <tr>
+              <th align="center">Image</th>
+              <th align="center">Name</th>
+              <th align="center">Discount</th>
+            </tr>
+          </table>
+        </div>
+    </p>
+  </div>
+  <div class="card card-block card-custom-bg" style="overflow:hidden;">
+    <div class="card-title">
+      <div style="float: left">
+        USER
+        <form class="userInfo">
+          <input type="text" name="title" id="userName" placeholder="Write User Name" />
+          <input type="submit" value="submit" class="button" /> <br />
+        </form>
+      </div>
+      <div style="float: right;">
+        <table id="tableLoop1">
+          <tr>
+            <th align="center">Real Name</th>
+            <th align="center">Nick Name</th>
+            <th align="center">Image</th>
+            <th align="center">Status</th>
+            <th align="center">Country</th>
+            <th align="center">Last Played Game</th>
+          </tr>
+          <tr>
+            <td id="nameId0"></td>
+            <td id="nameId1"></td>
+            <td id="nameId2"></td>
+            <td id="nameId3"></td>
+            <td id="nameId4"></td>
+            <td id="nameId5"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <p class="card-text">
+
+    </p>
+  </div>
+</template>

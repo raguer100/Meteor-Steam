@@ -1,0 +1,80 @@
+body {
+  background-image: url('https://steamcdn-a.akamaihd.net/steam/apps/730/page_bg_generated_v6b.jpg');
+  min-height: 100%;
+  background-attachment: fixed;
+  letter-spacing: 1px;
+  color: white;
+  font-size:13px;
+}
+
+.card-custom-bg{
+  background: rgba(255, 255, 255, 0.20);
+}
+
+.card-center-v{
+  margin-top: 100px;
+}
+
+.card-width{
+  width: 450px;
+}
+
+.opaque{
+  background: rgba(255, 255, 255, 0.2);
+}
+
+p {
+	text-align: text-center;
+}
+
+th {
+  text-align:center;
+}
+
+td {
+	vertical-align: middle;
+}
+
+table {
+
+}
+
+table, th, td {
+    
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+
+.button {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: #555555;
+  color: white;
+  border: 2px solid #555555;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.button:active {
+  background-color: #555555;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input[type=text] {
+    background-color: #555555;
+    color: white;
+    width: 300px;
+}
